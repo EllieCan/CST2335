@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="button_text">I\'m a button!</string>
+    <string name="login_message">Login</string>
+    <string name="hint_message">Login name</string>
+    <string name="password_message">Password</string>
+    <string name="button_message">RadioButton</string>
+    <string name="checkbox_message">CheckBox</string>
+    <string name="switch_message">What does this do?</string>
+
+
+</resources>
