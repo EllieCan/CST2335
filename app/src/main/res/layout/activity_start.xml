@@ -7,6 +7,7 @@
     tools:context="com.example.algonquin.androidlabs.StartActivity">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_message"
@@ -22,7 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_text"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintLeft_toLeftOf="parent"

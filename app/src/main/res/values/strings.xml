@@ -8,5 +8,10 @@
     <string name="button_message">RadioButton</string>
     <string name="checkbox_message">CheckBox</string>
     <string name="switch_message">What does this do?</string>
+    <string name="login_button_text">Login!</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Option</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
 
 </resources>
