@@ -18,6 +18,8 @@ public class StartActivity extends Activity {
 
     protected Button myButton;
 
+    protected Button startChatButton;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -33,9 +35,21 @@ public class StartActivity extends Activity {
                 Intent intent = new Intent(StartActivity.this,ListItemActivity.class);
                 startActivityForResult(intent, 10);
             }
-
-
         });
+
+
+        startChatButton = findViewById(R.id.start_chat_button);
+
+        startChatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this,ChatWindow.class);
+                startActivityForResult(intent, 10);
+            }
+        });
+
+
     }
 
     @Override
@@ -57,6 +71,9 @@ public class StartActivity extends Activity {
             toast.show();
         }
     }
+
+
+
 
 
     public void onStart(){
