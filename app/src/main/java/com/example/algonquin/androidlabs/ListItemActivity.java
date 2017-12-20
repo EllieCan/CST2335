@@ -31,9 +31,7 @@ public class ListItemActivity extends Activity {
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
         imageButton = findViewById(R.id.imageButton);
-
         aSwitch = findViewById(R.id.switch1);
-
         checkBox = findViewById(R.id.checkBox);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
@@ -95,9 +93,6 @@ public class ListItemActivity extends Activity {
             }
         });
 
-
-
-
     }
 
     @Override
@@ -108,10 +103,6 @@ public class ListItemActivity extends Activity {
             imageButton.setImageBitmap(imageBitmap);
         }
     }
-
-
-
-
 
 
 

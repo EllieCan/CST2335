@@ -17,6 +17,18 @@
 
     <string name="start_chat_button">Start Chat</string>
     <string name="send_button">Send</string>
+    <string name="title_activity_weather_forecast">Weather Forecast</string>
+
+    <string name="notice">Weather in Ottawa</string>
+    <string name="min">Min Temp:</string>
+    <string name="max">Max Temp:</string>
+    <string name="current">Current Temp:</string>
+    <string name="title_activity_message_details">MessageDetails</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
 
 
 </resources>

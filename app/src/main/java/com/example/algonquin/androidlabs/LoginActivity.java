@@ -16,7 +16,6 @@ public class LoginActivity extends Activity {
     protected Button mButton;
     protected SharedPreferences prefs;
     private static final String MySharedPrefs = "MyPrefs";
-
     protected TextView email;
 
 
@@ -26,7 +25,7 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        mButton = findViewById(R.id.button2);
+        mButton = findViewById(R.id.login_button);
         prefs = this.getSharedPreferences(MySharedPrefs, Context.MODE_PRIVATE);
         email = findViewById(R.id.email);
         email.setText(prefs.getString("DefaultEmail", "email@domain.com"));

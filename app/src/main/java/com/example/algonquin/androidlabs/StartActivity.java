@@ -20,6 +20,8 @@ public class StartActivity extends Activity {
 
     protected Button startChatButton;
 
+    protected Button weatherButton;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,8 +29,8 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
-        myButton = findViewById(R.id.button);
 
+        myButton = findViewById(R.id.button);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,13 +41,26 @@ public class StartActivity extends Activity {
 
 
         startChatButton = findViewById(R.id.start_chat_button);
-
         startChatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //switch to the ChatWindow activity
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
                 Intent intent = new Intent(StartActivity.this,ChatWindow.class);
                 startActivityForResult(intent, 10);
+            }
+        });
+
+
+        weatherButton = findViewById(R.id.weather_button);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //switch to the WeatherForecast activity
+                Log.i(ACTIVITY_NAME, "User clicked Start Weather Download");
+                Intent intent = new Intent(StartActivity.this, WeatherForecast.class);
+                startActivityForResult(intent, 10);
+
             }
         });
 

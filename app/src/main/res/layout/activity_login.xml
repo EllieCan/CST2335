@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    tools:context="com.example.algonquin.androidlabs.LoginActivity"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent">
+    tools:context="com.example.algonquin.androidlabs.LoginActivity"
+
+    >
 
     <TextView
-
         android:id="@+id/loginView"
         android:layout_width="match_parent"
-        android:layout_height="29dp"
+        android:layout_height="wrap_content"
         android:text="@string/login_message"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="42dp"
-
         />
 
     <EditText
@@ -25,17 +22,13 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_message"
         android:inputType="textEmailAddress"
-
         />
     <TextView
 
         android:id="@+id/passwordView"
         android:layout_width="match_parent"
-        android:layout_height="29dp"
+        android:layout_height="wrap_content"
         android:text="@string/password_message"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="42dp"
-
         />
 
     <EditText
@@ -44,7 +37,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_button_text" />

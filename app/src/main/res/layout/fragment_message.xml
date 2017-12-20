@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/message_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+<TextView
+        android:id="@+id/message_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c9ddff"
+        android:hint="MessageHere"
+        android:gravity="right"
+
+    />
+
+
+    <TextView
+        android:id="@+id/id_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/message_textView"
+        android:layout_marginTop="28dp"
+        android:background="#c9ddff"
+        android:hint="ID=" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc"
+        android:text="Delete"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    </RelativeLayout>
+
+
+

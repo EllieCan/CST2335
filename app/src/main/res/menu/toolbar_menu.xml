@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_one"
+        android:title="One"
+        android:icon="@drawable/expressionless"
+        android:orderInCategory="101"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_two"
+        android:title="Two"
+        android:icon="@drawable/happy"
+        android:orderInCategory="102"
+        android:showAsAction="always" />
+
+
+    <item android:id="@+id/action_three"
+        android:title="Three"
+        android:icon="@drawable/sad"
+        android:orderInCategory="103"
+        android:showAsAction="always" />
+
+
+</menu>
